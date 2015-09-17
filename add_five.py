@@ -9,5 +9,5 @@ if len(sys.argv) != 2:
     sys.stderr.write("usage: python add_five.py <number>\n")
     sys.exit()
 
-user_input = sys.argv[1]
+user_input = int(sys.argv[1])
 print(user_input + 5)
